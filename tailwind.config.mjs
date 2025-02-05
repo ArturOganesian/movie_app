@@ -13,6 +13,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#D6C7FF",
+        darkBlue: "#0F0D23",
+        colorPrimary: "#A8B5DB"
       },
       screens: {
         sm: '576px',
