@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --bg-pattern: url('/bg.png');
 }
 
 *{
@@ -19,6 +20,8 @@
   .container {
     @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px];
   }
-  
+  body{
+    @apply bg-bgPattern bg-cover
+  }
 }
 

@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        bgPattern: "var(--bg-pattern)"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
